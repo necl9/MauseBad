@@ -174,6 +174,17 @@ keyPressed(keyRow, keyColumn) {
 
         stageOneKey := [keyRow, keyColumn]
         stageOfChoice := 2
+
+        ; stageOneSubgridCoord := [0, 0]
+        ; stageOneSubgridCoord[1] := currentMonitor.Left + getMouseLocationAfterStageTwo(currentMonitor.Width, currentMonitor.Height, stageOneKey, [1, 1])[1]
+        ; stageOneSubgridCoord[2] := currentMonitor.Top + getMouseLocationAfterStageTwo(currentMonitor.Width, currentMonitor.Height, stageOneKey, [1, 1])[1]
+        ; ; gridGui.Show("x" stageOneSubgridCoord[1] " y" stageOneSubgridCoord[2] " w" currentMonitor.Width /5 " h" currentMonitor.Height /4 " NoActivate")
+        ; global gridGui
+        ; gridGui.Destroy()
+        ; gridGui := Gui()
+        ; gridGui.Add("Picture", "w" currentMonitor.Width /5 " h" currentMonitor.Height /4)
+        ; gridGui.Value := "*Crop " stageOneSubgridCoord[1] " " stageOneSubgridCoord[2] " " currentMonitor.Width /5 " " currentMonitor.Height /4 " images\Grid_Mouse_Bad_Transparent.png"
+        ; gridGui.Show()
         return
     }
     else if stageOfChoice == 2 {
