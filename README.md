@@ -1,13 +1,18 @@
 # MauseBad
 A small Windows script to replace your mouse with keystrokes - Vim style.
+
 Free and open source. 
 ...Obviously. I mean it's a script.
 
 I've seen some ideas and examples on the net - and it looked intriguing. I wanted to try how it would feel to not take my hands off of keyboard at all. That interruption always annoyed me.
+
 But what I found on the net was either not the way I liked, not on Windows, or paywalled.
+
 So I did it for myself. 
+
 And since the script already done, why not share it, right?
-Just keep in mind that it's first and foremost the script that I did for myself.
+
+Just keep in mind that it's first and foremost the script that I did for myself. Hence, some of the decisions.
 
 # Dependancies:
 AutoHotkey v2.0 or later.
@@ -17,11 +22,14 @@ https://www.autohotkey.com/
 
 # Installation:
 After installing AutoHotkey, just double-click on MouseBad.ahk - and it should show as a running program in the tray.
+
 And because it's just a script, you can always open it with your text-editor and modify however you like.
 
 # Keybindings and Configuration:
 Your active config is in "config/config.ahk"
+
 All other files in the "config/" directory are different configs that you can use by renaming them into "config.ahk".
+
 Copy and modify it to your heart's content.
 
 ### By default CapsLock is to enter/exit "Mouse Layer" (you should see a pic-notification in the top-left corner of your screen).
@@ -68,9 +76,11 @@ For now, I made 2 different configs for "Mouse Layer":
 |Tab:| Switch between monitors. Or you can use numbers from 1 to 0 to choose the monitor you need directly. |
 |Esc:| to regain the control of your keyboard. :) The same as CapsLock - does not close the program.        |
 
+Ergonomic is the one I use, so it's the one active by default.
+
 # Usage:
 - Press CapsLock.
-    - 'CapsLock' again will return your keyboard to you to use as usual.
+    - 'CapsLock' again will return your keyboard to you - to use as usual.
     - Or reset back to beginning if you want to cancel your mouse movement.
 - In the top-left corner of your screen you should see a pic "Mouse Layer".
 - Now you can use all of the key-commands mentioned above.
