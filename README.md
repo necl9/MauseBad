@@ -4,6 +4,8 @@ A small Windows script to replace your mouse with keystrokes - Vim style.
 Free and open source. 
 ...Obviously. I mean it's a script.
 
+### Why:
+
 I've seen some ideas and examples on the net - and it looked intriguing. I wanted to try how it would feel to not take my hands off of keyboard at all. That interruption always annoyed me.
 
 But what I found on the net was either not the way I liked, not on Windows, or paywalled.
