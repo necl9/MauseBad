@@ -16,7 +16,7 @@ r::moveAndClickRightMouseButton()
 e::moveAndClickMiddleMouseButton()
 q::clickAndDrag()
 
-u::Click("WheelUp")
+a::Click("WheelUp")
 d::Click("WheelDown")
 s & u::Click("WheelUp, 8")
 s & d::Click("WheelDown, 8")
