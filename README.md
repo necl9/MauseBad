@@ -67,9 +67,9 @@ For now, I made 2 different configs for "Mouse Layer":
 |f:  | Moves the mouse to the target location.                                                              |
 |c:  | just a click. Left Mouse Button.                                                                     |
 |q:  | click and drag.                                                                                      |
-|u:  | mouse wheel Up.                                                                                      |
+|a:  | mouse wheel Up.                                                                                      |
 |d:  | mouse wheel Down.                                                                                    |
-|s+u:| "Super" wheel up. Precisely 8 times faster.                                                          |
+|s+a:| "Super" wheel up. Precisely 8 times faster.                                                          |
 |s+d:| "Super" wheel down.                                                                                  |
 |h:  | left arrow.                                                                                          |
 |j:  | down arrow.                                                                                          |

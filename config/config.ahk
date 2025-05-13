@@ -18,7 +18,7 @@ q::clickAndDrag()
 
 a::Click("WheelUp")
 d::Click("WheelDown")
-s & u::Click("WheelUp, 8")
+s & a::Click("WheelUp, 8")
 s & d::Click("WheelDown, 8")
 ;w & r::Click("WheelRight")
 ;w & l::Click("WheelLeft")
